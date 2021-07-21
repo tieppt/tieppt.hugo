@@ -1,0 +1,32 @@
+baseURL = "https://www.tiepphan.com/"
+languageCode = "vi"
+title = "Tiep Phan - Lập Trình Thật Kỳ Diệu"
+theme = "TiepPhan"
+
+canonifyURLs = false
+disableAliases = true
+disableHugoGeneratorInject = true
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+pygmentsUseClasses=true
+paginate = 5
+rssLimit = 10
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    style = "github"
+    tabWidth = 2
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

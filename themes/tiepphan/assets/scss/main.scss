@@ -1,0 +1,14 @@
+@import './components/highlight';
+html,
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+code:not([class*=language]) {
+  color: #c31651;
+}
+.highlight {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
