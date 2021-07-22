@@ -19,7 +19,6 @@ tags:
 ---
 
 
-# Practical Micro Frontends with Angular
 > Good frontend development is hard. Scaling frontend development so that many teams can work simultaneously on a large and complex product is even harder.
 
 > source: [https://martinfowler.com/articles/micro-frontends.html](https://martinfowler.com/articles/micro-frontends.html)

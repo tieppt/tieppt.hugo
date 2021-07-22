@@ -1,21 +1,27 @@
 {{ define "main" }}
-<div class="row justify-content-center">
-  <div class="col-md-12 col-lg-10 col-xl-8">
-    <article>
-      <div class="blog-header">
-        <h1>{{ .Title }}</h1>
-        {{ partial "main/blog-meta.html" . }}
-      </div>
-      {{ .Content }}
-    </article>
-    {{ if .Params.toc }}
-      <aside>
-          <header>
+<div class="container mx-auto px-4">
+  <article>
+    <div class="blog-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+      {{ partial "main/blog-meta.html" . }}
+    </div>
+    <div class="flex flex-col">
+
+      {{ if .Params.toc }}
+      <aside class="post-toc">
+        <header>
           <h2>{{ .Params.tocTitle | default "Table of Contents" }}</h2>
-          </header>
+        </header>
+        <div class="post-toc-listing">
           {{ .TableOfContents }}
+        </div>
       </aside>
-    {{ end }}
-  </div>
+      {{ end }}
+      <div class="post-content flex-1">
+        {{ .Content }}
+      </div>
+    </div>
+
+  </article>
 </div>
 {{ end }}

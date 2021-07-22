@@ -1,0 +1,28 @@
+.blog-header {
+  @apply mb-4;
+}
+
+.post-toc {
+  @apply mb-6;
+}
+
+.post-toc-listing {
+  ul > li {
+    &::marker {
+      content: "» ";
+      font-size: 1.25rem;
+      --hue: 200;
+      color: HSL(var(--hue) 50% 50%);
+    }
+  }
+  ul {
+    @apply ml-5;
+  }
+  ul ul {
+    > li {
+      &::marker {
+        --hue: 250;
+      }
+    }
+  }
+}

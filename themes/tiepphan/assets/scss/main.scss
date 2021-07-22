@@ -1,22 +1,8 @@
-@import './components/highlight';
-html,
-body {
-  font-size: 16px;
-  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-code:not([class*=language]) {
-  color: #c31651;
-}
-.highlight {
-  padding: 4px;
-  background-color: #f6f8fa;
-  border-radius: 6px;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-blockquote {
-  border-left: .25em solid #788087;
-  color: #323435;
-  padding: 0 1em;
-  margin: 0;
-  margin-bottom: 1rem;
-}
+@import './components/base';
+@import './components/highlight';
+@import './components/post';
+

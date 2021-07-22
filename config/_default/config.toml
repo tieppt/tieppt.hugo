@@ -30,3 +30,8 @@ rssLimit = 10
     endLevel = 3
     ordered = false
     startLevel = 2
+
+[params]
+  author = "Tiep Phan"
+  description = "Tiep Phan Blog"
+  logo = "images/logo-circle.svg"

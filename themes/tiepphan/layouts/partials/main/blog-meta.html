@@ -1,10 +1,10 @@
-<p>
+<p class="text-lg">
   <small>
     Posted {{ .PublishDate.Format "January 2, 2006" }} by
     {{ if .Params.contributors -}}
       {{ range $index, $contributor := .Params.contributors }}
         {{ if gt $index 0 }} and {{ end }}
-        <a class="stretched-link position-relative"
+        <a class="text-indigo-700 font-medium"
           href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">
           {{ . }}
         </a>
