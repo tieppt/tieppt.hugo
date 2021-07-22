@@ -1,4 +1,8 @@
-/* Background */ .chroma { background-color: #ffffff }
+pre,
+code {
+  font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', consolas, monospace;
+}
+/* Background */ .chroma { background-color: #f6f8fa }
 /* Other */ .chroma .x {  }
 /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
@@ -6,12 +10,12 @@
 /* LineHighlight */ .chroma .hl { display: block; width: 100%;background-color: #ffffcc }
 /* LineNumbersTable */ .chroma .lnt { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
 /* LineNumbers */ .chroma .ln { margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #7f7f7f }
-/* Keyword */ .chroma .k { color: #000000; font-weight: bold }
-/* KeywordConstant */ .chroma .kc { color: #000000; font-weight: bold }
-/* KeywordDeclaration */ .chroma .kd { color: #000000; font-weight: bold }
-/* KeywordNamespace */ .chroma .kn { color: #000000; font-weight: bold }
-/* KeywordPseudo */ .chroma .kp { color: #000000; font-weight: bold }
-/* KeywordReserved */ .chroma .kr { color: #000000; font-weight: bold }
+/* Keyword */ .chroma .k { color: #cf222e; font-weight: bold }
+/* KeywordConstant */ .chroma .kc { color: #cf222e; font-weight: bold }
+/* KeywordDeclaration */ .chroma .kd { color: #8250df; font-weight: bold }
+/* KeywordNamespace */ .chroma .kn { color: #cf222e; font-weight: bold }
+/* KeywordPseudo */ .chroma .kp { color: #cf222e; font-weight: bold }
+/* KeywordReserved */ .chroma .kr { color: #cf222e; font-weight: bold }
 /* KeywordType */ .chroma .kt { color: #445588; font-weight: bold }
 /* Name */ .chroma .n {  }
 /* NameAttribute */ .chroma .na { color: #008080 }
@@ -26,7 +30,7 @@
 /* NameFunctionMagic */ .chroma .fm {  }
 /* NameLabel */ .chroma .nl { color: #990000; font-weight: bold }
 /* NameNamespace */ .chroma .nn { color: #555555 }
-/* NameOther */ .chroma .nx {  }
+/* NameOther */ .chroma .nx { }
 /* NameProperty */ .chroma .py {  }
 /* NameTag */ .chroma .nt { color: #000080 }
 /* NameVariable */ .chroma .nv { color: #008080 }
