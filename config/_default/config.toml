@@ -1,4 +1,4 @@
-baseURL = "https://www.tiepphan.com/"
+baseURL = "/"
 languageCode = "vi"
 title = "Tiep Phan - Lập Trình Thật Kỳ Diệu"
 theme = "TiepPhan"
