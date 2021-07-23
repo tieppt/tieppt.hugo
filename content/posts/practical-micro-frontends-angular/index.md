@@ -396,7 +396,7 @@ Sau đó truy cập vào các địa chỉ sau:
 
 Dưới đây là kết quả có được. Chúng ta có thể chạy standalone cho từng micro apps hoặc chạy chính từ shell app.
 
-{{< youtube iCNEQJykL4s >}}
+{{< yt id="iCNEQJykL4s" loading="lazy" >}}
 
 
 ## Lời kết {#conc-mfe}
