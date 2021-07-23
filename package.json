@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:prod": "NODE_ENV=production hugo"
+    "build": "NODE_ENV=production hugo"
   },
   "keywords": [],
   "author": "",

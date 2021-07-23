@@ -13,13 +13,13 @@ hugo server
 ```
 ### Build SSG
 ```sh
-npm run build:prod
+npm run build
 ```
 
 Build with other environment
 ```sh
-npm run build:prod -- -e <production | next>
+npm run build -- -e <production | next>
 ```
 ```sh
-npm run build:prod -- -e next
+npm run build -- -e next
 ```
