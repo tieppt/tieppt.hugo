@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI/CD for production
+name: CI/CD for dev
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -36,7 +36,7 @@ jobs:
       if: steps.cache-npm.outputs.cache-hit != 'true'
       run: npm install
     - name: Build SSG
-      run: npm run build
+      run: npm run build -- -e next
     - uses: w9jds/firebase-action@v2.0.0
       with:
         args: deploy --only hosting
