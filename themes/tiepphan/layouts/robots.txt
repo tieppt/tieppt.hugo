@@ -1,7 +1,7 @@
 User-agent: *
-{{ if eq (hugo.Environment) "production" -}}
-Allow: /
-{{ else -}}
+{{ if eq (hugo.Environment) "development" -}}
 Disallow: /
+{{ else -}}
+Allow: /
 {{ end }}
 Sitemap: {{ "sitemap.xml" | absURL -}}
