@@ -34,4 +34,5 @@ rssLimit = 10
 [params]
   author = "Tiep Phan"
   description = "Tiep Phan Blog"
-  logo = "images/logo-circle.svg"
+  logo = "images/logo.svg"
+  altLogo = "images/logo-circle.svg"
