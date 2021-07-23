@@ -36,3 +36,5 @@ rssLimit = 10
   description = "Tiep Phan Blog"
   logo = "images/logo.svg"
   altLogo = "images/logo-circle.svg"
+  siteName = "Tiep Phan"
+  siteNameSub = "Lập Trình Thật Kỳ Diệu"

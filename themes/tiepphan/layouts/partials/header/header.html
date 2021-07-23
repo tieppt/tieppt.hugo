@@ -1,7 +1,11 @@
-<header class="flex flex-wrap sticky top-0 bg-white shadow-md px-5 py-2">
-  <nav class="flex flex-wrap">
+<header class="flex flex-wrap sticky top-0 bg-white shadow-md py-2">
+  <nav class="flex flex-wrap container mx-auto px-4">
     <a href="{{ .Site.BaseURL }}" class="inline-flex flex-wrap">
       <img class="h-12" src="{{ .Site.Params.logo | absURL }}" alt="site-logo">
+      <span class="site-brand">
+        <strong class="site-name">{{ .Site.Params.siteName }}</strong>
+        <small class="site-name-sub">{{ .Site.Params.siteNameSub }}</small>
+      </span>
     </a>
   </nav>
 </header>
