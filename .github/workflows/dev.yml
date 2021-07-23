@@ -33,8 +33,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-
     - name: Install dependencies
-      if: steps.cache-npm.outputs.cache-hit != 'true'
-      run: npm install
+      run: npm ci
     - name: Build SSG
       run: npm run build -- -e next
     - uses: w9jds/firebase-action@v2.0.0
