@@ -16,6 +16,9 @@ categories:
 tags:
   - CSS
   - CSS Grid
+
+series:
+  - 100 Days of Angular
 ---
 
 
