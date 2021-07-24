@@ -1,0 +1,9 @@
+---
+enable: true
+topTitle: Hello, I am Tiep
+content: >
+  ## Enjoy reading my personal blog
+buttonName: Contact me
+buttonURL: contact
+image: images/hero/working-at-desk.svg
+

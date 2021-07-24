@@ -1,20 +1,16 @@
 {{ define "main" }}
-<div class="">
-  <div class="">
-    <section>
-      <h1 class="text-center">{{ .Title }}</h1>
-      <div class="text-center">{{ .Content }}</div>
-      <div class="card-list">
-        {{ range .Data.Pages -}}
-        <article class="card">
-          <div class="card-body">
-            <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
-            {{ partial "main/blog-meta.html" . -}}
-          </div>
-        </article>
-        {{ end -}}
+<section class="py-6 px-4">
+  <h1 class="text-center">{{ .Title }}</h1>
+  <div class="text-center">{{ .Content }}</div>
+  <div class="card-list">
+    {{ range .Data.Pages -}}
+    <article class="card">
+      <div class="card-body">
+        <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+        {{ partial "main/blog-meta.html" . -}}
       </div>
-    </section>
+    </article>
+    {{ end -}}
   </div>
-</div>
+</section>
 {{ end }}

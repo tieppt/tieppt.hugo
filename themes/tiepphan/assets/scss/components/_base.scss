@@ -1,19 +1,23 @@
 html,
 body {
   font-size: 16px;
-  font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-code:not([class*=language]) {
+code:not([class*="language"]) {
   color: #c31651;
 }
 blockquote {
-  border-left: .25em solid #788087;
+  border-left: 0.25em solid #788087;
   color: #323435;
   padding: 0 1em;
   margin: 0;
   margin-bottom: 1rem;
 }
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   @apply font-bold mb-2;
 }
 h1 {
@@ -31,4 +35,22 @@ h4 {
 
 a {
   @apply text-indigo-700;
+}
+
+@keyframes move_left {
+  0% {
+    transform: translateX(-50%);
+  }
+  50% {
+    transform: translateX(-57%);
+  }
+}
+@keyframes move_top {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
 }
