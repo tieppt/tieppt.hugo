@@ -1,5 +1,9 @@
 .blog-header {
-  @apply mb-4;
+  @apply mb-4 lg:mt-8 lg:mb-16;
+}
+
+.post-title {
+  @apply lg:text-4xl;
 }
 
 .post-toc {
