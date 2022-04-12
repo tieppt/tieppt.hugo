@@ -1,3 +1,4 @@
+{{- if .PublishDate -}}
 <p class="text-lg">
   <small>
     Posted {{ .PublishDate.Format "January 2, 2006" }} by
@@ -11,6 +12,7 @@
       {{ end -}}
     {{ end -}}
     &nbsp;&hyphen;&nbsp;
-    <strong>{{ .ReadingTime -}}&nbsp;min read</strong>
+    {{- if .ReadingTime -}}<strong>{{ .ReadingTime -}}&nbsp;min read</strong>{{- end -}}
   </small>
 <p>
+{{- end -}}

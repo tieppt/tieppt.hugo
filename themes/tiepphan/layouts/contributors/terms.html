@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="py-6 px-4">
+  <h1 class="text-center">Các tác giả trong blog</h1>
+  <div class="card-list">
+    {{ range .Data.Pages -}}
+    <article class="card">
+      <div class="card-body">
+        <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+      </div>
+    </article>
+    {{ end -}}
+  </div>
+</section>
+{{ end }}

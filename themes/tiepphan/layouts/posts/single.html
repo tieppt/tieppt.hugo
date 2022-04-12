@@ -1,10 +1,10 @@
 {{ define "main" }}
-<div class="container mx-auto px-4">
+<section class="container mx-auto py-6 px-4">
   <article>
-    <div class="blog-header">
+    <header class="blog-header">
       <h1 class="post-title">{{ .Title }}</h1>
       {{ partial "main/blog-meta.html" . }}
-    </div>
+    </header>
     <div class="flex flex-col">
 
       {{ if .Params.toc }}
@@ -23,5 +23,5 @@
     </div>
 
   </article>
-</div>
+</section>
 {{ end }}

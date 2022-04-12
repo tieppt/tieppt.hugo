@@ -38,3 +38,11 @@ rssLimit = 10
   altLogo = "images/logo-circle.svg"
   siteName = "Tiep Phan"
   siteNameSub = "Lập Trình Thật Kỳ Diệu"
+  images = ["images/logo.svg"]
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  contributors = "contributors"

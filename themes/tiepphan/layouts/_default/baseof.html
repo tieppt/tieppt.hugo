@@ -12,9 +12,9 @@
     {{ .Scratch.Set "class" .Type -}}
     {{ .Scratch.Add "class" " list" -}}
   {{ end -}}
-  <body class="{{ .Scratch.Get "class" }}">
+  <body class="main-theme {{ .Scratch.Get "class" }}">
     {{ partial "header/header.html" . }}
-    <main class="main-content mt-5" role="document">
+    <main class="main-content" role="document">
       <div class="content">
         {{ block "main" . }}{{ end }}
       </div>

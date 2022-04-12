@@ -5,7 +5,7 @@ date: 2021-07-21T21:18:23+07:00
 lastmod: 2021-07-21T21:18:23+07:00
 draft: false
 weight: 50
-images: ["practical-micro-frontends-angular.jpg"]
+images: ["/assets/micro-fe-app.jpg"]
 contributors: [Tiep Phan]
 author: Tiep Phan
 url: /practical-micro-frontends-angular/
@@ -16,6 +16,9 @@ categories:
 tags:
   - CSS
   - CSS Grid
+
+series:
+  - 100 Days of Angular
 ---
 
 
@@ -65,7 +68,7 @@ Webpack 5 and Module Federation, [piral](https://piral.io), [luigi](https://luig
 Code demo có tại repo sau: [https://github.com/tieppt/micro-frontends-demo](https://github.com/tieppt/micro-frontends-demo)
 
 
-![Email Client Micro Frontends](./assets/micro-fe-app.jpg)
+{{< figure class="post-figure" src="/assets/micro-fe-app.jpg" alt="Email Client Micro Frontends" >}}
 
 Từ hình mô tả trên chúng ta có thể thấy rằng, ứng dụng email client của chúng ta sẽ có thể được phát triển bởi 2 team cho 2 chức năng là **mailbox** và **calendar**. Trong đó, team **calendar** có thể phát triển thêm một widget để có thể nhúng vào page của **mailbox**. Việc tạo ra các widget có thể được thực hiện thông qua Custom Elements.
 
@@ -396,7 +399,7 @@ Sau đó truy cập vào các địa chỉ sau:
 
 Dưới đây là kết quả có được. Chúng ta có thể chạy standalone cho từng micro apps hoặc chạy chính từ shell app.
 
-![Micro Frontends Angular](./assets/micro-frontends.gif)
+{{< yt id="iCNEQJykL4s" loading="lazy" >}}
 
 
 ## Lời kết {#conc-mfe}

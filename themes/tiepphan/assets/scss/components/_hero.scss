@@ -1,0 +1,48 @@
+.hero {
+  @apply flex items-center justify-center relative px-0 py-8;
+}
+.hero-background-svg {
+  @apply absolute top-0 left-0 -z-1;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.hero_content {
+  @apply p-0 relative;
+  .hero_blob {
+    @apply -z-1 absolute;
+    top: -45%;
+    left: -45%;
+    width: 100%;
+    @media (min-width: 64rem) {
+      top: -100%;
+    }
+  }
+}
+
+.hero_figure {
+  border-radius: 20px;
+  @apply shadow-sm lg:shadow-lg relative p-8 bg-white;
+  max-width: 540px;
+  .figure-svg {
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    height: 150px;
+    animation: move_left 5s infinite linear;
+  }
+}
+
+.top-title {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.btn-grad-primary {
+  @apply bg-gradient-to-br from-green-400 to-blue-500 px-8 py-4 text-white text-xl font-medium;
+  border-radius: 0.5rem;
+}
