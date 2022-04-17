@@ -1,13 +1,6 @@
 .hero {
   @apply flex items-center justify-center relative px-0 py-8;
 }
-.hero-background-svg {
-  @apply absolute top-0 left-0 -z-1;
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-}
 
 .hero_content {
   @apply p-0 relative;
@@ -24,7 +17,7 @@
 
 .hero_figure {
   border-radius: 20px;
-  @apply shadow-sm lg:shadow-lg relative p-8 bg-white;
+  @apply shadow-xl relative p-8 bg-white;
   max-width: 540px;
   .figure-svg {
     position: absolute;
