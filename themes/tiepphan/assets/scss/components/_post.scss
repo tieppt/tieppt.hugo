@@ -2,6 +2,10 @@
   @apply mb-4 lg:mt-8 lg:mb-16;
 }
 
+.listing-post-title {
+  @apply text-3xl;
+}
+
 .post-title {
   @apply lg:text-4xl;
 }
