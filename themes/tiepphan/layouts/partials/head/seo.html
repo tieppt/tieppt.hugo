@@ -10,6 +10,13 @@
   {{ end -}}
 {{ end -}}
 
+{{ with .Site.Params.googleSiteVerification }}
+<meta name="google-site-verification" content="{{ . }}" />
+{{ end }}
+{{ with .Site.Params.bingSiteVerification }}
+<meta name="msvalidate.01" content="{{ . }}" />
+{{ end }}
+
 {{ if .IsHome -}}
   <title>{{ .Site.Params.title }} {{ .Site.Params.titleSeparator }} {{ .Site.Params.titleAddition }}</title>
 {{ else -}}

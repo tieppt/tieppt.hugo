@@ -41,6 +41,8 @@ rssLimit = 10
   siteName = "Tiep Phan"
   siteNameSub = "Lập Trình Thật Kỳ Diệu"
   images = ["images/logo.svg"]
+  googleSiteVerification = "Gcn3Y0oBud7gufI1PtszF7DFNgFOifgLRIaZAoLZWWU"
+  bingSiteVerification = "F160AE523B1846CBDC431CB91CB6613A"
 
 
 [taxonomies]
