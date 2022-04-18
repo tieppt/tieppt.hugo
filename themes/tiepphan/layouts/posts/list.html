@@ -3,14 +3,18 @@
   <h1 class="text-center">{{ .Title }}</h1>
   <div class="text-center">{{ .Content }}</div>
   <div class="card-list">
-    {{ range .Data.Pages -}}
+    {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
+    {{ range $paginator.Pages }}
     <article class="card">
       <div class="card-body">
         <h2 class="listing-post-title"><a class="stretched-link text-slate-800 hover:underline hover:underline-offset-2" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
         {{ partial "main/blog-meta.html" . -}}
       </div>
     </article>
-    {{ end -}}
+    {{ end }}
+  </div>
+  <div class="pagination-container">
+    {{ template "_internal/pagination.html" . }}
   </div>
 </section>
 {{ end }}
