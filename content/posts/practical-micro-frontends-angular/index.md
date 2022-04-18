@@ -385,7 +385,7 @@ module.exports = {
 };
 ```
 
-### Khỏi chạy ứng dụng {#running-mfe-apps}
+### Khởi chạy ứng dụng {#running-mfe-apps}
 
 Giờ đây bạn có thể chạy cả 3 ứng dụng:
 ```sh

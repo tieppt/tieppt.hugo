@@ -5,7 +5,7 @@
     {{ if .Params.contributors -}}
       {{ range $index, $contributor := .Params.contributors }}
         {{ if gt $index 0 }} and {{ end }}
-        <a class="text-indigo-700 font-medium"
+        <a class="text-indigo-700 font-medium hover:underline hover:underline-offset-2"
           href="{{ "/contributors/" | relURL }}{{ . | urlize }}/">
           {{ . }}
         </a>
