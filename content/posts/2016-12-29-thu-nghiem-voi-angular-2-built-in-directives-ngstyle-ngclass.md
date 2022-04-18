@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=225
 url: /thu-nghiem-voi-angular-2-built-in-directives-ngstyle-ngclass/
 description: 'Trong bài học này, chúng ta sẽ tìm hiểu về những Attribute Directives như NgStyle NgClass và property binding cho class, style'
-image: /assets/uploads/2016/12/angular2-PHAN4.jpg
+images:
+  - /assets/uploads/2016/12/angular2-PHAN4.jpg
 categories:
   - Javascript
   - Lập Trình

@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=2024
 url: /advanced-layout-css-grid-area/
 description: 'Cùng nhau thử nghiệm cách dựng layout với CSS Grid Area'
-image: /assets/uploads/2021/01/1_grid_area.png
+images:
+  - /assets/uploads/2021/01/1_grid_area.png
 categories:
   - Web Development
 

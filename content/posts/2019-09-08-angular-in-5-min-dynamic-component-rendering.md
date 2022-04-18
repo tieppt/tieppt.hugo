@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=1013
 url: /angular-trong-5-phut-dynamic-component-rendering/
 description: 'Hướng Dẫn Dynamic Component Rendering Trong Angular'
-image: /assets/uploads/2019/09/angular-5-mins-dynamic-component-rendering.jpg
+images:
+  - /assets/uploads/2019/09/angular-5-mins-dynamic-component-rendering.jpg
 categories:
   - Javascript
   - Lập Trình Angular

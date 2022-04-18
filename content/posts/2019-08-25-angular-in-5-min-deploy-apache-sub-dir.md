@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=1011
 url: /angular-trong-5-phut-deploy-angular-application-apache-sub-directory/
 description: 'Hướng Dẫn Deploy Angular Application Trên Apache HTTPD Sub-Directory'
-image: /assets/uploads/2019/08/angular-5-mins-apache-httpd-sub-dir.jpg
+images:
+  - /assets/uploads/2019/08/angular-5-mins-apache-httpd-sub-dir.jpg
 categories:
   - Javascript
   - Lập Trình Angular

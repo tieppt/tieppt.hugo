@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=253
 url: /thu-nghiem-voi-angular-2-truyen-du-lieu-cho-component-voi-input/
 description: 'Trong bài học này chúng ta sẽ tìm hiểu việc truyền dữ liệu cho Component trong Angular với @Input decorator.'
-image: /assets/uploads/2017/01/angular2-PHAN7.jpg
+images:
+  - /assets/uploads/2017/01/angular2-PHAN7.jpg
 categories:
   - Javascript
   - Lập Trình

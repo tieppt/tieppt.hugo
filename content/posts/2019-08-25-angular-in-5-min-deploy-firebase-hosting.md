@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=1012
 url: /angular-trong-5-phut-deploy-angular-application-firebase-hosting/
 description: 'Hướng Dẫn Deploy Angular Application Lên Firebase Hosting'
-image: /assets/uploads/2019/08/angular-5-mins-deploy-firebase-hosting.jpg
+images:
+  - /assets/uploads/2019/08/angular-5-mins-deploy-firebase-hosting.jpg
 categories:
   - Javascript
   - Lập Trình Angular

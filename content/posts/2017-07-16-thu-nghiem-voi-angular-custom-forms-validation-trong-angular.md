@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=1001
 url: /thu-nghiem-voi-angular-custom-forms-validation-trong-angular/
 description: 'Hướng dẫn tạo Custom Forms Validation trong Angular'
-image: /assets/uploads/2017/07/custom-forms-validation.jpg
+images:
+  - /assets/uploads/2017/07/custom-forms-validation.jpg
 categories:
   - Javascript
   - Lập Trình Angular

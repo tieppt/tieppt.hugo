@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=2023
 url: /angular-http-client-module-option/
 description: 'Cùng nhau khám phá về Http Client Options và demo upload file có progress nhé.'
-image: https://res.cloudinary.com/tuananh-asia/image/upload/v1591951988/HTTP%20CLIENT%20MODULE/angular-http-client_t5qody.png
+images:
+  - https://res.cloudinary.com/tuananh-asia/image/upload/v1591951988/HTTP%20CLIENT%20MODULE/angular-http-client_t5qody.png
 categories:
   - Lập Trình Angular
   - Programming

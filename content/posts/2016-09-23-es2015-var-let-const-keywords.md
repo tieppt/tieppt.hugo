@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=9
 url: /es2015-var-let-const-keywords/
 description: 'Giới thiệu chi tiết về đặc điểm của let, var, const trong ES2015'
-image: /assets/uploads/2016/09/es2015-logo.png
+images:
+  - /assets/uploads/2016/09/es2015-logo.png
 categories:
   - Lập Trình
   - Programming

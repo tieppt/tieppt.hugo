@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=1002
 url: /rxjs-reactive-programming/
 description: 'Giới thiệu Rxjs và Reactive Programming và ứng dụng trong Angular'
-image: /assets/uploads/2017/09/rxjs-reactive-programming.jpg
+images:
+  - /assets/uploads/2017/09/rxjs-reactive-programming.jpg
 categories:
   - Javascript
   - Lập Trình Angular

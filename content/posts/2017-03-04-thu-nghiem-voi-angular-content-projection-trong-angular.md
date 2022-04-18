@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=323
 url: /thu-nghiem-voi-angular-content-projection-trong-angular/
 description: 'Làm thế nào để sử dụng lại các component trong Angular 2+, hay làm sao để có thể nhúng content của một component cho một component khác. Content Projection trong Angular sẽ giải quyết bài toán này.'
-image: /assets/uploads/2017/03/angular2-12.jpg
+images:
+  - /assets/uploads/2017/03/angular2-12.jpg
 categories:
   - Lập Trình
   - Lập Trình Angular

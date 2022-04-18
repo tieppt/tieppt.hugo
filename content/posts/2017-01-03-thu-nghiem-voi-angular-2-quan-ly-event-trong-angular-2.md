@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=245
 url: /thu-nghiem-voi-angular-2-quan-ly-event-trong-angular-2/
 description: 'Bài học này sẽ củng cố một số kiến thức về Event trong Angular 2 như $event object hay key event filtering.'
-image: /assets/uploads/2017/01/angular2-PHAN6.jpg
+images:
+  - /assets/uploads/2017/01/angular2-PHAN6.jpg
 categories:
   - Javascript
   - Lập Trình

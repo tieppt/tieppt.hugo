@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=384
 url: /thu-nghiem-voi-angular-pipe-trong-angular/
 description: 'Bài học này sẽ giới thiệu cho các bạn về Pipe trong Angular &#8211; một thành phần cơ bản của Angular.'
-image: /assets/uploads/2017/04/angular15.jpg
+images:
+  - /assets/uploads/2017/04/angular15.jpg
 categories:
   - Javascript
   - Lập Trình

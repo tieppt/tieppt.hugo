@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=242
 url: /thu-nghiem-voi-angular-2-ngfor-index-first-last-even-odd-trackby/
 description: 'Trong bài học này chúng ta sẽ tìm hiểu một số thuộc tính mà Angular 2 NgFor cung cấp như các biến cục bộ: index, first, last, even, odd hay việc tối ưu performance với trackBy function.'
-image: /assets/uploads/2017/01/angular2-PHAN5.jpg
+images:
+  - /assets/uploads/2017/01/angular2-PHAN5.jpg
 categories:
   - Javascript
   - Lập Trình

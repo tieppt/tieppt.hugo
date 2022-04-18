@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=273
 url: /thu-nghiem-voi-angular-2-two-way-binding-custom-two-way-data-binding/
 description: 'Bài học này chúng ta sẽ cùng tìm hiểu về Two-way Binding và cách tạo Custom Two-way Data Binding trong Angular 2.'
-image: /assets/uploads/2017/01/angular-2-Two-way-Binding-Va-Tao-Custom-Two-way-Data-Binding.jpg
+images:
+  - /assets/uploads/2017/01/angular-2-Two-way-Binding-Va-Tao-Custom-Two-way-Data-Binding.jpg
 categories:
   - Javascript
   - Lập Trình

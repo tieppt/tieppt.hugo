@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=268
 url: /thu-nghiem-voi-angular-2-component-event-voi-eventemitter-output/
 description: 'Bài học sẽ giới thiệu cách để Component phát sinh Event để tương tác từ Component con với Component cha.'
-image: /assets/uploads/2017/01/angular2-PHAN8-Componen-Event-Voi-EventEmitter-Va-Output.jpg
+images:
+  - /assets/uploads/2017/01/angular2-PHAN8-Componen-Event-Voi-EventEmitter-Va-Output.jpg
 categories:
   - Javascript
   - Lập Trình

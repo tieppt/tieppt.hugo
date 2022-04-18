@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=131
 url: /angular-2-ban-da-san-sang-thu-nghiem/
 description: 'Angular 2đã phát hành chính thức, hầu hết các blog đều có những lời đánh tiếng về nó và cũng có vô vàn các hướng dẫn để bạn có thể tiếp cận với Angular 2. Vậy bạn đã sẵn sàng để bắt đầu với nền tảng hot này chưa?'
-image: /assets/uploads/2016/11/angular-2.png
+images:
+  - /assets/uploads/2016/11/angular-2.png
 categories:
   - Javascript
   - Lập Trình

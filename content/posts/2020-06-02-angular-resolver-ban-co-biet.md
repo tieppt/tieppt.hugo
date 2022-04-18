@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=2020
 url: /angular-route-resolver/
 description: 'Cùng nhau khám phá về Resolve trong Angular. Hiểu được và áp dụng vào những case thực tế của chính các bạn'
-image: /assets/uploads/2020/06/angular-resolver-post.png
+images:
+  - /assets/uploads/2020/06/angular-resolver-post.png
 categories:
   - Lập Trình Angular
   - Programming

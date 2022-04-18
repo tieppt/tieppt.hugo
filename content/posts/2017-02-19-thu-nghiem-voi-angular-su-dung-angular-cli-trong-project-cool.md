@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=293
 url: /thu-nghiem-voi-angular-su-dung-angular-cli-trong-project-cool/
 description: 'Trong bài này, chúng ta sẽ tìm hiểu cách sử dụng CLI để phát triển một ứng dụng bằng Angular và build một ứng dụng Angular với Angular CLI.'
-image: /assets/uploads/2017/02/angular2-10.jpg
+images:
+  - /assets/uploads/2017/02/angular2-10.jpg
 categories:
   - Lập Trình
   - Lập Trình Angular

@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=299
 url: /thu-nghiem-voi-angular-template-variable-trong-angular/
 description: 'Bài học này sẽ giới thiệu cho các bạn về cách sử dụng Template Variable trong Angular và ngOnInit, ngAfterViewInit lifecycle.'
-image: /assets/uploads/2017/02/angular2-11.jpg
+images:
+  - /assets/uploads/2017/02/angular2-11.jpg
 categories:
   - Lập Trình
   - Lập Trình Angular

@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=215
 url: /thu-nghiem-voi-angular-2-style-component-view-encapsulation/
 description: 'Trong bài học này chúng ta cùng tìm hiểu cách để Style cho Component trong Angular 2 cũng như View Encapsulation được cài đặt trong Angular 2 như thế nào.'
-image: /assets/uploads/2016/12/angular2-PHAN3.jpg
+images:
+  - /assets/uploads/2016/12/angular2-PHAN3.jpg
 categories:
   - Javascript
   - Lập Trình

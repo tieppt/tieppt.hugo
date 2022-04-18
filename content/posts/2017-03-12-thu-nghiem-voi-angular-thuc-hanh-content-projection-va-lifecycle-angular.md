@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=335
 url: /thu-nghiem-voi-angular-thuc-hanh-content-projection-va-lifecycle-angular/
 description: 'Content Projection là một concept khá hay trong Angular, giúp chúng ta có thể dễ dàng tạo các component có khả năng tái sử dụng cao. Bài học này chúng ta sẽ tạo các Component để tìm hiểu chi tiết hơn về Content Projection.'
-image: /assets/uploads/2017/03/angular13.jpg
+images:
+  - /assets/uploads/2017/03/angular13.jpg
 categories:
   - Javascript
   - Lập Trình

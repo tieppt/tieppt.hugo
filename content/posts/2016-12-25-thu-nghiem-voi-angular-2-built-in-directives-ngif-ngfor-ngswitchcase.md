@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=206
 url: /thu-nghiem-voi-angular-2-built-in-directives-ngif-ngfor-ngswitchcase/
 description: 'Thử Nghiệm Với Angular 2 Phần 2: Built-in Directives NgIf, NgFor, NgSwitchCase'
-image: /assets/uploads/2016/12/angular2-PHAN2.jpg
+images:
+  - /assets/uploads/2016/12/angular2-PHAN2.jpg
 categories:
   - Javascript
   - Lập Trình

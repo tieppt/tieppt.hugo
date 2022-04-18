@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=1005
 url: /angular-workshop-introduction-to-angular/
 description: 'Workshop giới thiệu về các thành phần cơ bản của Angular, được mang đến bởi Tiep Phan'
-image: /assets/uploads/2017/11/angular-workshop-introduction-to-angular.png
+images:
+  - /assets/uploads/2017/11/angular-workshop-introduction-to-angular.png
 categories:
   - Javascript
   - Lập Trình Angular

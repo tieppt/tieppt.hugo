@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=195
 url: /thu-nghiem-voi-angular-2-component-va-data-binding/
 description: 'Đây là bài học đầu tiên trong series Thử Nghiệm Với Angular 2, trong bài học này chúng ta sẽ cùng tìm hiểu về Angular 2 Component và Data Binding trong Angular 2.'
-image: /assets/uploads/2016/12/angular2-PHAN1.jpg
+images:
+  - /assets/uploads/2016/12/angular2-PHAN1.jpg
 categories:
   - Javascript
   - Lập Trình

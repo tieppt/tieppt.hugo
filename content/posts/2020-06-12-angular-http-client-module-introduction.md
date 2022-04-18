@@ -7,7 +7,8 @@ layout: post
 guid: https://www.tiepphan.com/?p=2022
 url: /angular-http-client-module-introduction/
 description: 'Cùng nhau khám phá về Http Client Module trong Angular. Giới thiệu về HTTP Client Module'
-image: https://res.cloudinary.com/tuananh-asia/image/upload/v1591951988/HTTP%20CLIENT%20MODULE/angular-http-client_t5qody.png
+images:
+  - https://res.cloudinary.com/tuananh-asia/image/upload/v1591951988/HTTP%20CLIENT%20MODULE/angular-http-client_t5qody.png
 categories:
   - Lập Trình Angular
   - Programming
